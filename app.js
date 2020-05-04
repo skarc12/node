@@ -2,12 +2,10 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send("Home Page.");
+    res.send("Updated");
 });
-
 
 const port = process.env.port || 3000;
 app.listen(port, () => {
-    console.log('Hey there (::)');
+    console.log("Wazzappppp");
 });
-
